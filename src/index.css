@@ -1,13 +1,115 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&ufamily=Roboto:wght@400;500;700;900&display=swap');
+
+*,
+*::after,
+*::before {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+:root {
+  --clr-dark-blue: rgb(6, 6, 85);
+  --clr-grey: rgb(128, 128, 128);
+  --ff-roboto: 'Roboto', sans-serif;
+  --ff-noto-sans: 'Noto Sans', sans-serif;
+}
+body {
+  flex-wrap: wrap;
+  width: 100vw;
+  font-family: var(--ff-noto-sans);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.title {
+  margin: 0.5rem;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+.border {
+  border: 2px solid var(--clr-dark-blue);
+  width: 5rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  max-width: 30rem;
+  color: var(--clr-dark-blue);
+  font-size: 22px;
+  font-weight: 600;
+  padding: 0.75rem;
+  background: transparent;
+  border: none;
+}
+button:hover {
+  background-color: var(--clr-dark-blue);
+  color: white;
+  border-radius: 10px;
+}
+.img {
+  width: 20rem;
+  height: 15rem;
+  border: 5px solid var(--clr-dark-blue);
+  border-radius: 5px;
+}
+
+.card-title {
+  display: flex;
+  background-color: red;
+}
+.main-container {
+  display: grid;
+  text-align: center;
+  gap: 1rem 2rem;
+  margin: 0 10rem;
+}
+
+.item-info header {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px dotted var(--clr-grey);
+}
+.price {
+  color: rgb(195, 10, 10);
+}
+.description {
+  text-align: left;
+  color: var(--clr-grey);
+}
+
+@media screen and (min-width: 800px) {
+  .main-container {
+    grid-template-columns: 1fr 1fr;
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    gap: 4rem 2rem;
+    align-items: center;
+  }
+  .section {
+    display: flex;
+  }
+  img {
+    margin-top: 2rem;
+    max-width: 12rem;
+    max-height: 10rem;
+  }
+  .item-info {
+    padding: 1rem;
+  }
 }

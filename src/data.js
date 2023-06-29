@@ -1,0 +1,58 @@
+export const data = [
+  {
+    id: 1,
+    img: 'https://img.freepik.com/free-vector/creative-data-logo-template_23-2149217525.jpg?w=2000',
+    category: 'Analytics',
+    price: '₹7,999.00',
+    decs: ' A data analyst gathers, cleans, and studies data sets to help solve problems. ... A data analyst collects,cleans, and interprets data sets in order to answer a question or solvea problem.',
+  },
+  {
+    id: 2,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHj4hiF2RLBvvDyjMgX091ce17zGB83BDoQ&usqp=CAU',
+    category: 'Analytics',
+    price: '₹7,999.00',
+    decs: ' A data analyst gathers, cleans, and studies data sets to help solve problems. ... A data analyst collects,cleans, and interprets data sets in order to answer a question or solvea problem.',
+  },
+  {
+    id: 3,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHj4hiF2RLBvvDyjMgX091ce17zGB83BDoQ&usqp=CAU',
+    category: 'Programming',
+    price: '₹7,999.00',
+    decs: ' A data analyst gathers, cleans, and studies data sets to help solve problems. ... A data analyst collects,cleans, and interprets data sets in order to answer a question or solvea problem.',
+  },
+  {
+    id: 4,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHj4hiF2RLBvvDyjMgX091ce17zGB83BDoQ&usqp=CAU',
+    category: 'Programming',
+    price: '₹7,999.00',
+    decs: ' A data analyst gathers, cleans, and studies data sets to help solve problems. ... A data analyst collects,cleans, and interprets data sets in order to answer a question or solvea problem.',
+  },
+  {
+    id: 5,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHj4hiF2RLBvvDyjMgX091ce17zGB83BDoQ&usqp=CAU',
+    category: 'Programming',
+    price: '₹7,999.00',
+    decs: ' A data analyst gathers, cleans, and studies data sets to help solve problems. ... A data analyst collects,cleans, and interprets data sets in order to answer a question or solvea problem.',
+  },
+  {
+    id: 6,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHj4hiF2RLBvvDyjMgX091ce17zGB83BDoQ&usqp=CAU',
+    category: 'Web development',
+    price: '₹7,999.00',
+    decs: ' A data analyst gathers, cleans, and studies data sets to help solve problems. ... A data analyst collects,cleans, and interprets data sets in order to answer a question or solvea problem.',
+  },
+  {
+    id: 7,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHj4hiF2RLBvvDyjMgX091ce17zGB83BDoQ&usqp=CAU',
+    category: 'Web development',
+    price: '₹7,999.00',
+    decs: ' A data analyst gathers, cleans, and studies data sets to help solve problems. ... A data analyst collects,cleans, and interprets data sets in order to answer a question or solvea problem.',
+  },
+  {
+    id: 8,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHj4hiF2RLBvvDyjMgX091ce17zGB83BDoQ&usqp=CAU',
+    category: 'Web development',
+    price: '₹7,999.00',
+    decs: ' A data analyst gathers, cleans, and studies data sets to help solve problems. ... A data analyst collects,cleans, and interprets data sets in order to answer a question or solvea problem.',
+  },
+];
