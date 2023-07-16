@@ -1,7 +1,6 @@
 import { useState, Fragment } from 'react';
 import { data } from './data';
 import { removeDuplicates } from './utils';
-import Title from './components/Title';
 import ButtonContainer from './components/ButtonContainer';
 import CourseContainer from './components/CourseContainer';
 
@@ -27,7 +26,8 @@ const App = () => {
 
   return (
     <main>
-      <Title title='Our courses' />
+      <h1 className='title-menu'>Our Menu</h1>
+      <div className='underline'></div>
       <ButtonContainer categories={categories} filterCourses={filterCourses} />
       <CourseContainer courses={courses} />
     </main>
