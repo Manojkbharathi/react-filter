@@ -26,36 +26,57 @@ export const data = [
   {
     id: 4,
     img: 'https://react-vite-projects-5-menu.netlify.app/images/item-2.jpeg',
-    category: 'Programming',
-    price: '₹7,999.00',
-    decs: ' A data analyst gathers, cleans, and studies data sets to help solve problems. ... A data analyst collects,cleans, and interprets data sets in order to answer a question or solvea problem.',
+    title: 'Bacon Overflow',
+
+    title: 'Diner Double',
+
+    category: 'lunch',
+    price: '$13.99',
+    decs: ' vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats',
   },
   {
     id: 5,
     img: 'https://react-vite-projects-5-menu.netlify.app/images/item-5.jpeg',
-    category: 'Programming',
-    price: '₹7,999.00',
-    decs: ' A data analyst gathers, cleans, and studies data sets to help solve problems. ... A data analyst collects,cleans, and interprets data sets in order to answer a question or solvea problem.',
+    title: 'Egg Attack',
+
+    category: 'lunch',
+    price: '$22.99',
+    decs: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up`,
   },
   {
     id: 6,
     img: 'https://react-vite-projects-5-menu.netlify.app/images/item-8.jpeg',
-    category: 'Web development',
-    price: '₹7,999.00',
-    decs: ' A data analyst gathers, cleans, and studies data sets to help solve problems. ... A data analyst collects,cleans, and interprets data sets in order to answer a question or solvea problem.',
+    title: 'American Classic',
+
+    category: 'lunch',
+    price: '$12.99',
+    decs: ' on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut',
   },
   {
     id: 7,
     img: 'https://react-vite-projects-5-menu.netlify.app/images/item-3.jpeg',
-    category: 'Web development',
-    price: '₹7,999.00',
-    decs: ' A data analyst gathers, cleans, and studies data sets to help solve problems. ... A data analyst collects,cleans, and interprets data sets in order to answer a question or solvea problem.',
+    title: 'Godzilla Milkshake',
+
+    category: 'Shakes',
+    price: '$6.99',
+    decs: ' ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.',
   },
   {
     id: 8,
     img: 'https://react-vite-projects-5-menu.netlify.app/images/item-6.jpeg',
-    category: 'Web development',
-    price: '₹7,999.00',
-    decs: ' A data analyst gathers, cleans, and studies data sets to help solve problems. ... A data analyst collects,cleans, and interprets data sets in order to answer a question or solvea problem.',
+    category: 'Shakes',
+    title: 'Oreo Dream',
+
+    price: '$18.99',
+    decs: 'Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday',
+  },
+  {
+    id: 9,
+    img: 'https://react-vite-projects-5-menu.netlify.app/images/item-9.jpeg',
+    category: 'Shakes',
+    title: 'Quarantine Buddy',
+
+    price: '$16.99',
+    decs: ' skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.',
   },
 ];

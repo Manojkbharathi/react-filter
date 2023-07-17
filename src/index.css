@@ -22,18 +22,14 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  overflow-x: hidden;
 }
 .section {
   display: flex;
   flex-direction: column;
 }
-.main-container {
-  display: grid;
-  gap: 1rem 2rem;
-}
-.title {
-  margin: 0.5rem;
+
+.title-menu {
+  margin-top: 5rem;
 }
 .underline {
   background: rgb(206, 213, 4);
@@ -47,20 +43,20 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 1rem;
 }
 
 .nav-bar {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 3rem;
 }
 
 button {
   max-width: 30rem;
-  color: var(--clr-dark-blue);
   font-size: 18px 5px;
   font-weight: 600;
+  color: white;
   padding: 0.75rem;
   border-radius: 5px;
   background-color: rgb(243, 160, 52);
@@ -68,9 +64,7 @@ button {
   border: none;
 }
 button:hover {
-  background-color: var(--clr-dark-blue);
-  color: white;
-  border-radius: 10px;
+  background-color: rgb(189, 118, 26);
 }
 .img {
   width: 25rem;
@@ -80,13 +74,12 @@ button:hover {
 
 .card-title {
   display: flex;
-  background-color: red;
 }
 .main-container {
   display: grid;
-  text-align: start;
-  gap: 1rem 2rem;
-  margin: 0 1rem;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(3, 3fr);
+  gap: 3rem 3rem;
 }
 
 .item-info header {
@@ -95,24 +88,31 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin: 0;
+  margin: 1rem 0;
 }
 article {
   margin: 0rem;
   padding: 0;
 }
 .item-info {
-  padding: 0;
+  margin: 1rem 0;
 }
 .price {
-  color: rgb(195, 10, 10);
+  color: rgb(244, 237, 237);
+  background-color: rgb(243, 160, 52);
+  padding: 0.25rem;
+  border-radius: 5px;
 }
 .description {
+  display: flex;
+  word-wrap: break-word;
+  width: 25rem;
   text-align: left;
+  line-height: 2rem;
   color: var(--clr-grey);
 }
 
-@media screen and (min-width: 800px) {
+/* @media screen and (min-width: 800px) {
   .main-container {
     display: flex;
     justify-content: center;
@@ -137,4 +137,4 @@ article {
   .item-info {
     padding: 1rem;
   }
-}
+} */
